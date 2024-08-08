@@ -28,8 +28,8 @@ def main(page: ft.Page):
     page.add(
         ft.Row(
             [
-                ft.IconButton(ft.icons.SUNNY, on_click=change_theme),
-                ft.Text('Погодная программа')
+                ft.IconButton(ft.icons.SUNNY, on_click=change_theme, icon_color="#FFE53B"),
+                ft.Text('Погода сегодня')
             ],
             alignment=ft.MainAxisAlignment.CENTER
         ),
